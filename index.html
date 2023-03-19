@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gamerps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="start"> 
+        <h2 id="game">Stone, Paper & Scissor Game</h2>
+        <button id="startbtn"  onclick="play()">Play</button>
+    </div>
+    <div id="container" hidden>
+       
+        <div class="btncontainer">
+            <button class="btn" id="r" onclick="r()"> <img class="pic" src="R.jpg" alt="" srcset="">
+                <h5 class="head">Rock</h5>
+            </button>
+            <button class="btn" id="p" onclick="p()"> <img class="pic" src="p.jpg" alt="" srcset="">
+                <h5 class="head">Paper</h5>
+            </button>
+            <button class="btn" id="s" onclick="s()"> <img class="pic" src="S.jpg" alt="" srcset="">
+                <h5 class="head">Scissors</h5>
+            </button>
+        </div>
+        <div id="box1">
+
+
+
+
+        </div>
+        <table id="table">
+            <tbody>
+                <tr>
+                    <th>Computer Win</th>
+                    <th>User Win</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="result" hidden>
+
+        </div>
+        <div id="celebration">
+            <img style="display: none;" id="cel_u"
+                src="https://media0.giphy.com/media/SSELvbsJ8ok34MSTYq/200.webp?cid=ecf05e4739u1x0w5d1bhau1om3xa4e0njz29wzrd07e98ec4&rid=200.webp&ct=g"
+                alt="WIN" srcset="">
+            <img style="display: none;" id="cel_d"
+                src="https://media.tenor.com/mFYsjkPJ_TwAAAAi/%E5%BC%95%E3%81%8D%E5%88%86%E3%81%91-draw.gif" alt=""
+                srcset="" alt="DRAW">
+
+            <img style="display: none;" id="cel_c"  alt="LOSE"
+                src="https://media.tenor.com/LRKlbuGlNbEAAAAj/lose-%E8%B2%A0%E3%81%91.gif" alt="" srcset="">
+        </div>
+        <footer class="foot">
+            <b>@COPYRIGHT 2023</b>
+        </footer>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
