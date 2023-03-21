@@ -6,6 +6,9 @@
 
 
 }
+body{
+    background-color: rgb(235, 246, 255);
+}
 #start
 {
     display: flex;
@@ -148,4 +151,20 @@ td ,th{
     width: 100px;
     height: 100px;
     margin: 40px auto;
+}
+#regame
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#reset
+{
+    
+    border-radius: 10px;
+    margin: 1% auto;
+    font-family: math;
+    font-size: 1.2rem;
+    padding: 10px 8px;
+    background-color: rgb(222, 53, 53);
 }

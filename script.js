@@ -148,7 +148,8 @@ function show(user) {
             cel_d.style.display = "block";
             // r.style.backgroundcolor = "yellow";
         }
-        setTimeout(load, 6000);
+        let regame = document.getElementById("reset");
+        regame.hidden = false;
     }
 
 }
